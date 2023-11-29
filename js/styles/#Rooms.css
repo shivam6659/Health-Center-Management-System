@@ -1,0 +1,10 @@
+.closeIcon {
+    display: flex;
+    align-self: baseline;
+    padding: 10px;
+}
+
+.loginFormCon {
+    display: flex;
+    flex-direction: column;
+}

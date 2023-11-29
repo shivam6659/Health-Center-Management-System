@@ -1,0 +1,233 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(171, 199, 223, 0.12);
+}
+
+.mainCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.conLblInp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardCon {
+    width: 120vh;
+}
+
+.lblBuyingSelling {
+    color: #1B4752;
+    font-family: Outfit;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 30px;
+    text-align: center;
+}
+
+.inpBtnCon {
+    height: 44px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.inp {
+    padding-inline: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.spanSp {
+    width: 15px;
+}
+
+.btn {
+    border-radius: 4px;
+    background: #0EB2FF;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    /* top: 14px; */
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.btn:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.postLisingCon {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #003D59;
+}
+
+.lblPostSelling {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.btnPost {
+    margin-top: 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #6F6F6F;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 35px;
+    background: #DEEDFA;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.staticInfCon {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #ffffff;
+}
+
+.lblCon {
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+}
+
+.lblConF {
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    margin-left: 60px;
+}
+
+.titleCard {
+    color: rgba(0, 61, 89, 0.76);
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.titleCardDet {
+    color: rgba(66, 82, 110, 0.65);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    /* 145.833% */
+    letter-spacing: 0.388px;
+}
+
+.headingLblCon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.ul_top_hypers {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bottomCon {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15;
+}
+
+.bottomLblTit {
+    color: #003D59;
+    font-family: Source Sans Pro;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+}
+
+.bottomLblDesc {
+    color: var(--content-text, rgba(66, 82, 110, 0.65));
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+}
