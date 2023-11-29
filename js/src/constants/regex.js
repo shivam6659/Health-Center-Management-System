@@ -1,0 +1,1 @@
+export const NumericValueRegex = /^[0-9\b]+$/;

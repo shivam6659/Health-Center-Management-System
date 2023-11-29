@@ -1,0 +1,42 @@
+.container {
+    /* min-height: 100vh; */
+    /* padding: 0 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.loginFormCon {
+    /* display: flex; */
+    flex-direction: row;
+}
+
+.inp {
+    width: 45px;
+    height: 57px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.resendOtpLbl {
+    color: #000;
+    font-family: Outfit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-align: center;
+}
+
+.reOtpLbl {
+    color: #00AEFF;
+    font-family: Outfit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
